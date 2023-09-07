@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Source+Sans+3:wght@700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary-color: #ffb30e;
+  --secondary-color: #fdbe35;
+  --font-color: #f17228;
+
+  --heading-font: Qwigley;
+}
+
+body {
+  font-size: 14px;
+}
+
+/* -----------------------------nav bar---------------- */
+
+.logo {
+  font-family: var(--heading-font);
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 96px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.logo a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.address i {
+  color: var(--primary-color);
+}
+
+.search i {
+  color: var(--primary-color);
+}
+.login-button {
+  color: var(--primary-color);
+  padding: 5px 20px;
+  background-color: white;
+  border-radius: 8px;
+  border: 2px solid #FFAC0D; 
+  
+}
+
+
+
+/* -----------------------------nav bar---------------- */
+
+/* -----------------------------hero-section---------------- */
+
+.hero-section {
+  background-color: var(--secondary-color);
+  padding: 40px 0px;
+}
+
+.hero-section h1 {
+  font-family: var(--heading-font);
+  color: white;
+  font-size: 50px;
+}
+.hero-content p {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 18px;
+}
+
+.hero-card {
+  background-color: white;
+}
+.hero-card mark {
+  background-color: 10% #f172281a;
+  color: #f17228;
+  border-radius: 5px;
+}
+.pickup {
+  color: #757575;
+}
+
+.address input {
+  border: 0;
+  background-color: #757575;
+}
+.address button {
+  border-radius: 8px !important;
+  background: linear-gradient(96deg, #ff7a7a -39.64%, #f65900 135.31%);
+  color: white !important;
+}
+
+/* -----------------------------menu-section---------------- */
+
+.menu mark {
+  background: 20% #f1722833;
+  color: #f17228;
+}
+.card {
+  border: none;
+}
+
+/* ------------------- How does it work-section ----------------------------------  */
+
+.work {
+  color: var(--font-color);
+}
+
+.work h3 {
+  text-align: center;
+}
+
+.work-section {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 5px 27px 11px rgba(255, 181, 21, 0.1);
+}
+
+/* --------------------------------Search by Food-section------------------------ */
+.search {
+  background: #f6f5ee;
+  font-family: "Source Sans 3", sans-serif;
+}
+p.card-body{
+  
+  font-family: 'Source Sans 3', sans-serif;
+  border-radius: 24px;
+  line-height: 120%;
+}
+
+
+/* -----------------------------Deals-section---------------- */
+.card-body a{
+    background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+    border-radius: 8px;
+    font-size: 12px;
+    color: #f5f5f5;
+    
+}
+
+.card-title span{
+  color: var(--primary-color);
+    
+}
+.search .card img{
+  border-radius: 100px;
+  
+}
+.Deals h3{
+  font-size: 24px;
+}
+.search .card{
+  background-color: transparent;
+}
+p.card-text{
+  color:  #616161b0;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
+}
+.card-body button{
+  color: white;
+  background-color: #f17228;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+/* <!-- -------------------  Popular-items section  ----------------------------------  --> */
+
+.Popular-items{
+  display:grid !important;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr !important;
+}
+@media (max-width: 768px) {
+  .Popular-items{
+
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
+
+/* -----------------------------footer-section---------------- */
+.card-footer{
+  background-color: black;
+}
+.company {
+  line-height: 30px;
+  color: white;
+}
+
+
+.company-desc a {
+  text-decoration: none;
+  color: white;
+}
+.company-desc li {
+  list-style: none;
+  color: #F5F5F5;
+  
+}
+.follow-title{
+  color: #F5F5F5;
+  opacity: 0.6;
+}
+.envelope {
+  background-color: #424242 !important;
+  border: 0px;
+}
+
+
+.footer-address input {
+  border-radius: 8px;
+  border: transparent;
+  background-color: #424242; 
+  
+}
+.footer-address input::placeholder{
+  color:  #ADADAD;
+  
+  
+}
+
+.footer-address button {
+  border-radius: 8px;
+  background: var(--yellow-button, linear-gradient(93deg, #FFB800 -47.72%, #FF8A00 136.81%));
+  box-shadow: 0px 14px 32px 0px rgba(255, 178, 14, 0.29), 0px 5px 8px 0px rgba(222, 151, 0, 0.24);
+
+}
+
+.copy-rights{
+  color: #F5F5F5;
+  font-family: 'Open Sans';
+  
+}
